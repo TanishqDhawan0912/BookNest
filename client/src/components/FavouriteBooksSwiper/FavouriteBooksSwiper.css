@@ -1,0 +1,44 @@
+.swiper {
+  width: 1200px;
+  height: 600px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(135deg, #83b3f3, #ebedee);
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Add smooth transitions */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+/* Optional padding for content */
+.swiper-slide > * {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+} */

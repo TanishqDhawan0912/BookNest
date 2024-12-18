@@ -1,0 +1,71 @@
+.bannerswiper .swiper {
+  width: 300px;
+  height: 350px;
+}
+
+@media (min-width: 1000px) {
+  .bannerswiper .swiper {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+.bannerswiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.bannerswiper .swiper-slide:nth-child(1n) {
+  background-image: url("BannerSwiperBooks\book1.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(2n) {
+  background-image: url("BannerSwiperBooks\book2.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(3n) {
+  background-image: url("BannerSwiperBooks\book3.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(4n) {
+  background-image: url("BannerSwiperBooks\book4.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(5n) {
+  background-image: url("BannerSwiperBooks\book5.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(6n) {
+  background-image: url("BannerSwiperBooks\book6.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(7n) {
+  background-image: url("BannerSwiperBooks\book7.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(8n) {
+  background-image: url("BannerSwiperBooks\book8.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(9n) {
+  background-image: url("BannerSwiperBooks\book9.jpg");
+  background-size: cover;
+}
+
+.bannerswiper .swiper-slide:nth-child(10n) {
+  background-image: url("BannerSwiperBooks\book10.jpg");
+  background-size: cover;
+}
